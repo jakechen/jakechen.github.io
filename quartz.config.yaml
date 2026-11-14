@@ -38,20 +38,20 @@ configuration:
         gray: "#a3a3a3"
         darkgray: "#525252"
         dark: "#171717"
-        secondary: "#059669"
-        tertiary: "#10b981"
-        highlight: rgba(16, 185, 129, 0.1)
-        textHighlight: "#bbf7d088"
+        secondary: "#4f46e5"
+        tertiary: "#6366f1"
+        highlight: rgba(99, 102, 241, 0.1)
+        textHighlight: "#e0e7ffaa"
       darkMode:
         light: "#0a0a0a"
         lightgray: "#262626"
         gray: "#737373"
         darkgray: "#a3a3a3"
         dark: "#f5f5f5"
-        secondary: "#34d399"
-        tertiary: "#10b981"
-        highlight: rgba(16, 185, 129, 0.15)
-        textHighlight: "#065f4688"
+        secondary: "#818cf8"
+        tertiary: "#6366f1"
+        highlight: rgba(129, 140, 248, 0.15)
+        textHighlight: "#312e8188"
   links:
     markdownLinkResolution: shortest
   contentIndex:

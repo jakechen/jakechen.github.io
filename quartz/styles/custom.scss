@@ -50,23 +50,23 @@ body {
 }
 
 // ============================================================================
-// Links (crisp neutral underlined, emerald accent on hover)
+// Links (colored indigo/violet hyperlinks & graph links)
 // ============================================================================
 
 a {
   font-weight: 500;
-  color: var(--heading-strong);
-  text-decoration: underline;
-  text-decoration-color: var(--border-hover);
-  text-underline-offset: 3px;
-  text-decoration-thickness: 1px;
+  color: var(--secondary);
+  text-decoration: none;
   transition:
     color 0.15s ease,
     text-decoration-color 0.15s ease;
 
   &:hover {
-    color: var(--secondary);
-    text-decoration-color: var(--secondary);
+    color: var(--tertiary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    text-decoration-color: color-mix(in srgb, var(--tertiary) 45%, transparent);
   }
 
   &.internal {
@@ -77,8 +77,10 @@ a {
 
     &.broken {
       color: var(--text-muted);
+      text-decoration: underline;
       text-decoration-style: dashed;
       text-decoration-color: var(--border-subtle);
+      text-underline-offset: 3px;
       opacity: 0.7;
 
       &:hover {
@@ -104,6 +106,7 @@ a {
       &:hover {
         background-color: var(--highlight);
         color: var(--secondary);
+        text-decoration: none;
       }
     }
   }
@@ -286,8 +289,9 @@ hr {
     border-color 0.15s ease;
 
   &:hover {
-    color: var(--heading-strong);
+    color: var(--secondary);
     background-color: var(--surface-muted);
+    text-decoration: none;
   }
 
   & .home-link-icon {
@@ -334,12 +338,13 @@ hr {
       width: 0.5rem;
       height: 0.5rem;
       border-radius: 9999px;
-      background-color: #10b981;
+      background-color: var(--tertiary);
       flex-shrink: 0;
     }
 
     &:hover {
       color: var(--heading-strong);
+      text-decoration: none;
       opacity: 0.85;
     }
   }
@@ -372,6 +377,7 @@ button.toc-header h3,
 
     &:hover {
       color: var(--heading-strong);
+      text-decoration: none;
     }
 
     &.active {
@@ -386,6 +392,11 @@ button.toc-header h3,
     font-weight: 500;
     color: var(--heading-strong);
     text-decoration: none;
+
+    &:hover {
+      color: var(--secondary);
+      text-decoration: none;
+    }
   }
 
   & .folder-icon {
@@ -395,13 +406,15 @@ button.toc-header h3,
 
 .backlinks > ul.overflow > li > a {
   font-size: 0.8125rem;
-  font-weight: 400;
-  color: var(--text-body);
+  font-weight: 500;
+  color: var(--secondary);
   text-decoration: none;
   line-height: 1.6;
 
   &:hover {
-    color: var(--secondary);
+    color: var(--tertiary);
+    text-decoration: underline;
+    text-underline-offset: 3px;
   }
 }
 
@@ -411,6 +424,12 @@ ul.toc-content.overflow > li > a {
   text-decoration: none;
   color: var(--text-muted);
   opacity: 0.7;
+
+  &:hover {
+    color: var(--heading-strong);
+    opacity: 1;
+    text-decoration: none;
+  }
 
   &.in-view {
     color: var(--heading-strong);
@@ -495,6 +514,7 @@ ul.toc-content.overflow > li > a {
 
   & .breadcrumb-element a:hover {
     color: var(--heading-strong);
+    text-decoration: none;
   }
 }
 
@@ -562,6 +582,7 @@ details.note-properties {
     &:hover {
       background: var(--highlight);
       color: var(--secondary);
+      text-decoration: none;
     }
   }
 }
@@ -606,6 +627,7 @@ ul.section-ul > li.section-li {
 
     & .desc > h3 > a {
       color: var(--secondary);
+      text-decoration: none;
     }
   }
 
@@ -699,6 +721,7 @@ footer {
 
     &:hover {
       color: var(--heading-strong);
+      text-decoration: none;
     }
   }
 }
