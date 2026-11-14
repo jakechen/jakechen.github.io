@@ -2,7 +2,7 @@
 title: "Note Maturity: Alpha, Beta, and Production"
 date: 2026-11-13
 maturity: alpha
-tags: [meta, writing, knowledge-management]
+tags: [digital-garden]
 description: "Prescriptive rules for tagging notes by validation rigor rather than topic difficulty."
 ---
 
