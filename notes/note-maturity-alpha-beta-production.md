@@ -3,7 +3,7 @@ title: "Note Maturity: Alpha, Beta, and Production"
 date: 2026-11-13
 maturity: alpha
 tags: [meta, writing, knowledge-management]
-summary: "Prescriptive rules for tagging notes by validation rigor rather than topic difficulty."
+description: "Prescriptive rules for tagging notes by validation rigor rather than topic difficulty."
 ---
 
 Digital garden stages measure **epistemic maturity** (how battle-tested an idea is), not **topic difficulty** (101 vs. 300 level). A 300-level architecture starts as an `Alpha` when unverified; a 101-level workflow reaches `Production` once settled.
