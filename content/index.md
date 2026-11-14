@@ -19,9 +19,3 @@ Rather than plant-based metaphors, notes here follow the software release lifecy
 * 🟢 **`Production`** — Validated across repeated runs with documented failure guards and cross-links.
 
 See the full manifesto in [[note-maturity-alpha-beta-production|Note Maturity: Alpha, Beta, and Production]].
-
----
-
-### Seed Notes
-* [[hello-world|Hello World]]
-* [[note-maturity-alpha-beta-production|Note Maturity: Alpha, Beta, and Production]]
