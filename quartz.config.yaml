@@ -202,8 +202,8 @@ plugins:
   - source: "@quartz-community/recent-notes"
     enabled: true
     options:
-      title: "Latest Notes"
-      limit: 10
+      title: ""
+      limit: 50
       showTags: true
       linkToMore: false
       hideTagPages: true
